@@ -1,10 +1,19 @@
 ---
 title: "Project Proposal"
+author: Russell Tio Junhao, Yung Qi Yang, Ham Yan Choon Glenn
 ---
 
-Project Proposal
+# Title
 
-Title: Enhancing Urban Living: A Geospatial Analysis of Accessibility in Singapore
+Enhancing Urban Living: A Geospatial Analysis of Accessibility in Singapore
+
+# **Team**
+
+-   Russell Tio Junhao (01376735)
+
+-   Yung Qi Yang (01377905)
+
+-   Ham Yan Choon Glenn (01368310)
 
 # Introduction and Motivation
 
@@ -80,4 +89,4 @@ An interactive map highlighting the accessibility scores of different neighborho
 |---------|------------------------------------|
 | Russell | Modeling Geographic Accessibility  |
 | Qi Yang | Geographic segmentation            |
-| Glenn:  | Hotspot analysis                   |
+| Glenn   | Hotspot analysis                   |

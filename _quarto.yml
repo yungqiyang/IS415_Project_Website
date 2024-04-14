@@ -9,6 +9,10 @@ website:
         href: "Project_Proposal/Project_Proposal.html"
       - text: "User Guide"
         href: "User_Guide/User_Guide.html"
+      - text: "Application"
+        href: "https://yung-qi-yang.shinyapps.io/IS415_Project_App/"
+      - text: "Project Repository"
+        href: "https://github.com/FieryCake/IS415"
       - href: index.qmd
         text: Home
       - about.qmd

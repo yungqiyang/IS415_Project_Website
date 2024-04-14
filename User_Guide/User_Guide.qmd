@@ -1,10 +1,11 @@
 ---
 title: "User Guide"
+author: Russell Tio Junhao, Yung Qi Yang, Ham Yan Choon Glenn
 ---
 
 # User guide
 
-User guide for group 2’s amenities data analysis tool.
+User guide for group 12’s amenities data analysis tool.
 
 # Navigation
 
