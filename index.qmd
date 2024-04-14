@@ -1,0 +1,19 @@
+---
+title: "IS415 Project: Geospatial Analysis and Applications"
+---
+
+# **Project Overview:**
+
+Singapore is a developed nation, yet some citizens claim that certain areas are still inconvenient to live in, as evident through the demand of certain housing areas.
+
+Our group has decided to study if there is indeed a lack of accessibility/convenience in certain areas in Singapore.
+
+The desired goal of this project is to potentially suggest areas for improvement to the Singapore government
+
+**Analysis to be done:**
+
+-   Modeling Geographic Of Accessibility
+
+-   Hotspot analysis using the accessibility score for each region
+
+-   Geospatial clustering patterns of amenities

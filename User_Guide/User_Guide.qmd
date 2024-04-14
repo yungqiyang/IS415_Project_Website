@@ -1,0 +1,71 @@
+---
+title: "User Guide"
+---
+
+# User guide
+
+User guide for group 2’s amenities data analysis tool.
+
+# Navigation
+
+![](images/clipboard-1265827130.png)
+
+Our main navigation bar consists of our title - “**Accessibility of Amenities in Singapore**”, and our modules -”**Project introduction**, **Poster, Geographic Accessibility**, **Hotspot Analysis** and **Geospatial Segmentation**”. When a user first enters the webpage, they would be brought to the tab “Project Introduction” by default. 
+
+# Geographic Accessibility 
+
+![](images/clipboard-901742359.png)
+
+In this page, you can view the Accessibility map of each amenity type. You can filter the map by amenity type, accessibility computation method and map palette style. When hovering over the map, you can see the details of that specific amenity location, or the accessibility value of the hexagon. Try changing the palette style around to Best match your visual preference.
+
+# Hotspot Analysis - HeatMaps
+
+![](images/clipboard-2234043038.png)
+
+In the **HeatMaps** tab, users would be presented a map of Singapore which gives them a brief overview of the amenities frequency in Singapore. This map will indicate areas with different concentrations of amenities and the concentration will be represented by the color tones. With a brief glance, users can see higher concentration areas of the different amenities and users have the ability to filter between the number of clusters they want, mapping styles, the different amenities and also other map design options. 
+
+# Hotspot Analysis - Clustering
+
+![](images/clipboard-3094844586.png)
+
+Next, the Local moran plots under clustering, presents users a view of spatial autocorrelation in Singapore between the different amenities. This map will identify clusters by treating individual subzones as an independent entity to compare with its neighbors. If the entity itself and its neighbors have values that indicate high moran values, that indicates a cluster which is highlighted in green on the map. This is further supported by the p values on the right map, indicating the significance of clusters. The different filters that a user can use are filter by amenities, number of classes for local moran, and also map design options. 
+
+# Hotspot Analysis - Hotspots
+
+![](images/clipboard-2444266903.png)
+
+Lastly, we have the hotspot analysis tab where the user is presented with an interactive map of Singapore where they can mouse over to see the regions which are considered hotspots, coldspots and not significant. Unlike local moran, hotspot analysis analyzes the regions as a whole rather than comparing entities independently to derive hotspots and coldspots. Users can filter by zones and the different amenities for their visualization. 
+
+# Geospatial Segmentation - Data Scope Options
+
+![](images/clipboard-1403519661.png){width="251"}
+
+In this sidebar panel, you will find 3 options. These 3 options will determine the type of data upon which the entire module will run upon. ‘Planning Level’ allows analysis to run on the 3 different master plan levels available, whilst ‘Planning Zone’ will allow for greater flexibility by allowing the user to select exactly which spatial polygons at the selected planning level to analyse. Finally, ‘Select Amenities’ will let the user decide which amenities (minimum 1) upon which the clustering analysis will be computed across. By default, ‘Planning Area’ and all its respective spatial polygons are selected, and the analysis will be done across all amenities simultaneously.
+
+# Geospatial Segmentation - Scaling Distribution
+
+![In this Tab, you will find the distribution graphs of a single chosen amenity (using the ‘Amenity to Visualise’ Option in the ‘Scaling Options’ side panel), amongst the prior selected list of amenities, when different scaling methods are applied to the data. The 3 available graphs are the non-standardised, Min-Max standardised and Z-score standardised counts of the amenities. A continuous, density graph option is also available. This visualisation allows the user to decide upon the most suitable standardisation method to use by means of the ‘Scaling Method’ option.](images/clipboard-514428886.png)
+
+# Geospatial Segmentation - Hyperparameter Tuning
+
+![](images/clipboard-3461081397.png)
+
+This tab allows the user to investigate and decide upon the number of clustering groups to use in the clustering algorithm. The options available to the user here are primarily found in the ‘Hyperparameter Tuning’ sidebar panel. Here the available sliders and options relate directly to the options found in the **fviz_nbclust()** function from the factoextra R-package. The optimum clustering distribution graph is impacted not only by these functions, but also by the ‘Clustering Algorithm’ selected under the ‘Cluster Options’ sidebar panel as well as the respective, relevant options available to the selected algorithm.
+
+![](https://lh7-us.googleusercontent.com/6uMN4XhJ4DKPCJosT8ivYXWqTbvkMZo8_9IN5gUb9SjoqpG8JMghP76D5vJZAwXDKYYOaobR7slyS5Q9sx1mwi2u0uK-Iv786GfaleRdrBuUl6c8ljbHM6KK-fSUYU6g9zODmUKEtkuQY95cmHoCe9g){width="240"}
+
+For instance, the selection of the k-means algorithm will parse the kmeans() function into the **fviz_nbclust()** function at the backend, thus affecting the optimum cluster distribution graph. Finally, ‘Number of Clusters’ will determine the user-defined number of clusters to the clustering algorithm in our final analysis. If a spatially-constrained Ward hierarchical algorithm is chosen as the clustering method, an additional slider option and graph for the algorithm’s alpha value will be needed/produced.
+
+![](images/clipboard-4004446248.png)
+
+# Geospatial Segmentation - Cluster Visualisation
+
+In this panel, the user can examine and investigate the clustering results of their selected clustering algorithm and clustering parameters on an interactive view map, with OpenStreetMap as its base. Clicking upon each cluster polygon will provide the user with detailed information about the chosen planning area (or whichever planning level chosen) along with the number of each amenity found in the selected area. Further options are provided to the user to beautify the map according to their own tastes through the first 4 options found in the ‘Stylistic Options’ sidebar. ‘Map Colour Style’ uses RColorBrewer palettes to provide an incredibly diverse set of creative options.
+
+![](images/clipboard-4011095794.png)
+
+# Geospatial Segmentation - Cluster Distribution
+
+![](images/clipboard-3642803996.png)
+
+In this final panel, the user is presented with the multivariate parallel distribution plots of amenities within and across each cluster. Again, creative options are presented to the user in the ‘Stylistic Options’ sidebar tab, under the stylistic map options presented earlier. If the clustering analysis was conducted on a univariate, the distribution plot here will instead be a boxplot with a different set of beauty options available for the user in the same panel.
