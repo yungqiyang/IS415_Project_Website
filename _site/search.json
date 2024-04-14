@@ -39,6 +39,20 @@
     "href": "index.html",
     "title": "IS415 Project: Geospatial Analysis and Applications",
     "section": "",
-    "text": "Project Overview:\nSingapore is a developed nation, yet some citizens claim that certain areas are still inconvenient to live in, as evident through the demand of certain housing areas.\nOur group has decided to study if there is indeed a lack of accessibility/convenience in certain areas in Singapore.\nThe desired goal of this project is to potentially suggest areas for improvement to the Singapore government\nAnalysis to be done:\n\nModeling Geographic Of Accessibility\nHotspot analysis using the accessibility score for each region\nGeospatial clustering patterns of amenities"
+    "text": "Singapore is a developed nation, yet some citizens claim that certain areas are still inconvenient to live in, as evident through the demand of certain housing areas.\nOur group has decided to study if there is indeed a lack of accessibility/convenience in certain areas in Singapore.\nThe desired goal of this project is to potentially suggest areas for improvement to the Singapore government\nAnalysis to be done:\n\nModeling Geographic Of Accessibility\nHotspot analysis using the accessibility score for each region\nGeospatial clustering patterns of amenities\n\n\n\nhttps://github.com/FieryCake/IS415\n\n\n\nhttps://yung-qi-yang.shinyapps.io/IS415_Project_App/"
+  },
+  {
+    "objectID": "index.html#project-repository",
+    "href": "index.html#project-repository",
+    "title": "IS415 Project: Geospatial Analysis and Applications",
+    "section": "",
+    "text": "https://github.com/FieryCake/IS415"
+  },
+  {
+    "objectID": "index.html#project-application",
+    "href": "index.html#project-application",
+    "title": "IS415 Project: Geospatial Analysis and Applications",
+    "section": "",
+    "text": "https://yung-qi-yang.shinyapps.io/IS415_Project_App/"
   }
 ]

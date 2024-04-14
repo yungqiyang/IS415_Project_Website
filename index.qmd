@@ -17,3 +17,11 @@ The desired goal of this project is to potentially suggest areas for improvement
 -   Hotspot analysis using the accessibility score for each region
 
 -   Geospatial clustering patterns of amenities
+
+## Project Repository
+
+<https://github.com/FieryCake/IS415>
+
+## Project Application
+
+[https://yung-qi-yang.shinyapps.io/IS415_Project_App](https://yung-qi-yang.shinyapps.io/IS415_Project_App_V2/)/
