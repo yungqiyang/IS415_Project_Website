@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "IS415_Project_Website"
+  title: "IS415 Project Website"
   navbar:
     left:
       - text: "Project Proposal"
