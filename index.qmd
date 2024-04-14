@@ -24,4 +24,4 @@ The desired goal of this project is to potentially suggest areas for improvement
 
 ## Project Application
 
-[https://yung-qi-yang.shinyapps.io/IS415_Project_App](https://yung-qi-yang.shinyapps.io/IS415_Project_App_V2/)/
+[https://yung-qi-yang.shinyapps.io/IS415_Project_App](https://yung-qi-yang.shinyapps.io/IS415_Project_App/)/
