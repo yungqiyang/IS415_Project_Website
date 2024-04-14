@@ -26,14 +26,12 @@ The project will adopt a multi-faceted approach to analyze accessibility in Sing
 
 -   Modeling Geographic Accessibility: We will map out the geographic accessibility of different regions in Singapore, taking into account all amenities, road networks, and pedestrian pathways.
 
-```{=html}
 <!-- -->
-```
+
 -   Hotspot Analysis: With the accessibility scores calculated for each region, we will perform hotspot analysis to identify areas with significantly higher or lower accessibility levels.
 
-```{=html}
 <!-- -->
-```
+
 -   Geographic segmentation: Geographic segmentation will be used to identify clusters of regions which are separated by their different needs. This will help in understanding which amenities each cluster is lacking and where resources should be allocated to in development.  
 
 # Data
@@ -66,9 +64,8 @@ The final dataset will consist of various location names and coordinates under t
 
 1.  A time series heatmap that users can use to visualize the frequency of transactions from year 2012 to a user specified date. The frequency of transactions will be represented using shades of colors, providing users with context on the popularity of the area in different time periods. Darker shades on the map indicate higher transaction frequency, vise versa.
 
-```{=html}
 <!-- -->
-```
+
 2.  A series of heatmaps showing the density of different types of amenities in Singapore, alongside areas identified as hotspots of low accessibility. This visual contrast will help in pinpointing where additional amenities and services are needed.
 
 -   Interactive Maps: 

@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "Project_Proposal/Project_Proposal.html",
+    "href": "Project_Proposal/Project_Proposal.html",
+    "title": "Project Proposal",
+    "section": "",
+    "text": "Project Proposal\nTitle: Enhancing Urban Living: A Geospatial Analysis of Accessibility in Singapore"
+  },
+  {
+    "objectID": "Project_Proposal/Project_Proposal.html#context",
+    "href": "Project_Proposal/Project_Proposal.html#context",
+    "title": "Project Proposal",
+    "section": "Context ",
+    "text": "Context \nFor the HDB transactions, we have obtained a dataset from Kaggle which has transactions of HDBs in different regions from dates 2012 to 2023. \nSource: https://www.kaggle.com/datasets/syrahmadi/resale-hdb-flat-prices-2000-2022"
+  },
+  {
+    "objectID": "Project_Proposal/Project_Proposal.html#analysis",
+    "href": "Project_Proposal/Project_Proposal.html#analysis",
+    "title": "Project Proposal",
+    "section": "Analysis",
+    "text": "Analysis\nThe data we have chosen has been compiled from multiple sources. For each amenity type, we have a list of names that have been webscrapped or manually collected from the internet (e.g. school names from MOE). The list of names will be put through a python API which will take a location name as input and output its coordinates. \nThe final dataset will consist of various location names and coordinates under these amenity types:\n\nSchools (Primary, Secondary, JC, Poly, ITE, Kindergarten)\nMRT\nMalls\nSupermarket\nHawkers"
+  },
+  {
+    "objectID": "User_Guide/User_Guide.html",
+    "href": "User_Guide/User_Guide.html",
+    "title": "User Guide",
+    "section": "",
+    "text": "User guide\nUser guide for group 2’s amenities data analysis tool.\n\n\nNavigation\n\nOur main navigation bar consists of our title - “Accessibility of Amenities in Singapore”, and our modules -”Project introduction, Poster, Geographic Accessibility, Hotspot Analysis and Geospatial Segmentation”. When a user first enters the webpage, they would be brought to the tab “Project Introduction” by default. \n\n\nGeographic Accessibility \n\nIn this page, you can view the Accessibility map of each amenity type. You can filter the map by amenity type, accessibility computation method and map palette style. When hovering over the map, you can see the details of that specific amenity location, or the accessibility value of the hexagon. Try changing the palette style around to Best match your visual preference.\n\n\nHotspot Analysis - HeatMaps\n\nIn the HeatMaps tab, users would be presented a map of Singapore which gives them a brief overview of the amenities frequency in Singapore. This map will indicate areas with different concentrations of amenities and the concentration will be represented by the color tones. With a brief glance, users can see higher concentration areas of the different amenities and users have the ability to filter between the number of clusters they want, mapping styles, the different amenities and also other map design options. \n\n\nHotspot Analysis - Clustering\n\nNext, the Local moran plots under clustering, presents users a view of spatial autocorrelation in Singapore between the different amenities. This map will identify clusters by treating individual subzones as an independent entity to compare with its neighbors. If the entity itself and its neighbors have values that indicate high moran values, that indicates a cluster which is highlighted in green on the map. This is further supported by the p values on the right map, indicating the significance of clusters. The different filters that a user can use are filter by amenities, number of classes for local moran, and also map design options. \n\n\nHotspot Analysis - Hotspots\n\nLastly, we have the hotspot analysis tab where the user is presented with an interactive map of Singapore where they can mouse over to see the regions which are considered hotspots, coldspots and not significant. Unlike local moran, hotspot analysis analyzes the regions as a whole rather than comparing entities independently to derive hotspots and coldspots. Users can filter by zones and the different amenities for their visualization. \n\n\nGeospatial Segmentation - Data Scope Options\n\nIn this sidebar panel, you will find 3 options. These 3 options will determine the type of data upon which the entire module will run upon. ‘Planning Level’ allows analysis to run on the 3 different master plan levels available, whilst ‘Planning Zone’ will allow for greater flexibility by allowing the user to select exactly which spatial polygons at the selected planning level to analyse. Finally, ‘Select Amenities’ will let the user decide which amenities (minimum 1) upon which the clustering analysis will be computed across. By default, ‘Planning Area’ and all its respective spatial polygons are selected, and the analysis will be done across all amenities simultaneously.\n\n\nGeospatial Segmentation - Scaling Distribution\n\n\n\nIn this Tab, you will find the distribution graphs of a single chosen amenity (using the ‘Amenity to Visualise’ Option in the ‘Scaling Options’ side panel), amongst the prior selected list of amenities, when different scaling methods are applied to the data. The 3 available graphs are the non-standardised, Min-Max standardised and Z-score standardised counts of the amenities. A continuous, density graph option is also available. This visualisation allows the user to decide upon the most suitable standardisation method to use by means of the ‘Scaling Method’ option.\n\n\n\n\nGeospatial Segmentation - Hyperparameter Tuning\n\nThis tab allows the user to investigate and decide upon the number of clustering groups to use in the clustering algorithm. The options available to the user here are primarily found in the ‘Hyperparameter Tuning’ sidebar panel. Here the available sliders and options relate directly to the options found in the fviz_nbclust() function from the factoextra R-package. The optimum clustering distribution graph is impacted not only by these functions, but also by the ‘Clustering Algorithm’ selected under the ‘Cluster Options’ sidebar panel as well as the respective, relevant options available to the selected algorithm.\n\nFor instance, the selection of the k-means algorithm will parse the kmeans() function into the fviz_nbclust() function at the backend, thus affecting the optimum cluster distribution graph. Finally, ‘Number of Clusters’ will determine the user-defined number of clusters to the clustering algorithm in our final analysis. If a spatially-constrained Ward hierarchical algorithm is chosen as the clustering method, an additional slider option and graph for the algorithm’s alpha value will be needed/produced.\n\n\n\nGeospatial Segmentation - Cluster Visualisation\nIn this panel, the user can examine and investigate the clustering results of their selected clustering algorithm and clustering parameters on an interactive view map, with OpenStreetMap as its base. Clicking upon each cluster polygon will provide the user with detailed information about the chosen planning area (or whichever planning level chosen) along with the number of each amenity found in the selected area. Further options are provided to the user to beautify the map according to their own tastes through the first 4 options found in the ‘Stylistic Options’ sidebar. ‘Map Colour Style’ uses RColorBrewer palettes to provide an incredibly diverse set of creative options.\n\n\n\nGeospatial Segmentation - Cluster Distribution\n\nIn this final panel, the user is presented with the multivariate parallel distribution plots of amenities within and across each cluster. Again, creative options are presented to the user in the ‘Stylistic Options’ sidebar tab, under the stylistic map options presented earlier. If the clustering analysis was conducted on a univariate, the distribution plot here will instead be a boxplot with a different set of beauty options available for the user in the same panel."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IS415 Project: Geospatial Analysis and Applications",
+    "section": "",
+    "text": "Project Overview:\nSingapore is a developed nation, yet some citizens claim that certain areas are still inconvenient to live in, as evident through the demand of certain housing areas.\nOur group has decided to study if there is indeed a lack of accessibility/convenience in certain areas in Singapore.\nThe desired goal of this project is to potentially suggest areas for improvement to the Singapore government\nAnalysis to be done:\n\nModeling Geographic Of Accessibility\nHotspot analysis using the accessibility score for each region\nGeospatial clustering patterns of amenities"
+  }
+]
